@@ -1,0 +1,80 @@
+.block1 {
+width: 130px;
+height: 200px;
+background:#20d5c9 ;
+padding: 5px;
+padding-right: 5px;
+display: block;
+position: absolute;
+left: 10;
+top: 25%;
+}
+.block1:hover {
+transform: rotate(15deg);
+}
+.block2 {
+width: 130px;
+height: 200px;
+background: #2dec5c;
+padding: 5px;
+display: block;
+position: absolute;
+left: 210px;
+top: 25%;
+}
+.block2:hover {
+transform: scale(2);
+}
+.block3 {
+width: 130px;
+height: 200px;
+background: #810926;
+padding: 5px;
+display: block;
+position: absolute;
+left: 420px;
+top: 25%;
+}
+.block3:hover {
+transform: scaleX(2);
+}
+.block4 {
+width: 130px;
+height: 200px;
+background: #d6de21;
+padding: 5px;
+display: block;
+position: absolute;
+left: 630px;
+top: 25%;
+}
+.block4:hover {
+transform: scaleY(2);
+}
+.block5 {
+width: 130px;
+height: 200px;
+background: #e36e1e;
+padding: 5px;
+border: solid 1px black;
+display: block;
+position: absolute;
+left: 840px;
+top: 25%;
+}
+.block5:hover {
+transform: translate(15px,15px);
+}
+ .block6 {
+ width: 130px;
+ height: 200px;
+ background: #9e119c;
+ padding: 5px;
+ border: solid 1px black;
+ display: block;
+ position: absolute;
+ left: 1050px;
+ top: 25%;
+ }
+ .block6:hover {
+ transform: skew(45rad);

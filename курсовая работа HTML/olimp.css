@@ -1,0 +1,42 @@
+body, html{
+font: 12px tahoma;
+margin: 0px;
+padding: 0px;
+}
+
+div{
+text-align: center;
+}
+
+.wrap{
+width: 990px;
+margin-left: auto;
+margin-right: auto;
+background: #ddd;
+padding: 10px;
+}
+
+.header{
+background: #e25e5e;
+height: 100px;
+margin-bottom: 0px;
+padding: 10px;
+}
+
+.menu{
+float: left;
+padding: 10px;
+width: 300px;
+background: #5ee28d;
+height: 700px;
+}
+
+.content{
+float: left;
+padding: 10px;
+margin-left: 0px;
+background: #5e86e2;
+width: 640px;
+height: 700px;
+text-align: left;
+}

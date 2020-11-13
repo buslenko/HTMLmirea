@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UFT-8">
+<title>Тег canvas</title>
+<body>
+  <h1>Вариант 1: окружнасть в окружности</h1>
+  <p>Бусленко Анастасия Сергеевна</p>
+  <canvas id="circle" width="500" height="500"></canvas>
+  <script>
+  window.onload = function() {
+  var drawingCanvas = document.getElementById('circle');
+  if(drawingCanvas && drawingCanvas.getContext) {
+   var context = drawingCanvas.getContext('2d');
+   context.strokeStyle = "#000000";
+   context.fillStyle = "#8A2BE2";
+   context.beginPath();
+   context.arc(200,200,100,0,Math.PI*2,true);
+   context.closePath();
+   context.stroke();
+   context.fill();
+
+   context.fillStyle = "#7B68EE";
+     context.beginPath();
+     context.arc(200,200,50,0,Math.PI*2,true);
+     context.closePath();
+     context.stroke();
+     context.fill();
+  }
+  }
+  </script>
+</body>
+</html>

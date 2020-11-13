@@ -1,0 +1,46 @@
+input[type="checkbox"] + label  { /* Выбрать input checkbox  */
+    color: rgb(65, 198, 59);
+}
+
+input[type="checkbox"]:not(:checked) + label { /* inut checkbox not check*/
+    color: rgb(247, 170, 12);
+}
+
+#message,#message-\* { /* id = message or message-* */
+    color:rgb(111, 218, 8);
+}
+
+#message-\*{ /* id = meesage-* */
+    color:rgb(228, 143, 38);
+
+}
+
+
+a[href$=".zip"]{ /* href = "...zip" */
+    color: rgb(142, 39, 201);
+
+}
+
+[data-action~="delete"]{
+    color: rgb(23, 90, 124);
+
+}
+:not([data-action~="delete"])[data-action]{
+    color: blue;
+
+}
+ul#messages  li:nth-child(even){
+        color: green;
+}
+
+h3#widget-title + *{
+    color: red;
+}
+
+h3#widget-title ~ a{
+    color: green;
+}
+
+ul#messages li:last-child{
+    color: red
+}

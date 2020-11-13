@@ -1,0 +1,41 @@
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  margin-top:25px;
+  background:#edaa14;
+  height: 50px;
+}
+a {
+  text-decoration: none;
+  background:#edaa14;
+  color:#fff;
+  padding:0px 15px;
+  font-family: arial;
+  line-height:50px;
+  display: block;
+  border-right: 1.5px solid #52690b;
+  transition: all 0.3s 0.01s ease-in;
+}
+a:hover {
+  background:#a5ec15;
+}
+li {
+  float:left;
+  position:relative;
+}
+    /*Стили для скрытого выпадающего меню*/
+    li > ul {
+        position:absolute;
+        top:25px;
+        display:none;
+    }
+
+    /*Делаем скрытую часть видимой*/
+    li:hover > ul {
+        display:block;
+        width:110px;
+    }
+   li:hover > ul > li {
+        float:none;
+    }

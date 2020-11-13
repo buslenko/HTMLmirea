@@ -1,0 +1,47 @@
+body.header{
+  background: #8B008B;
+  color: #FFF0F5;
+}
+h1.header{
+  font-family: Arial;
+  font-size: 200%
+}
+p.header{
+  font-family: Arial;
+  font-size: 100%
+}
+body.main{
+  background: #DDA0DD;
+  color: #FFF0F5;
+}
+body.menu{
+  background: #EE82EE;
+  color: #800000;
+}
+a.menu{
+  color:#FFF0F5;
+  font-family:Arial;
+  font-size: 150%;
+}
+body.a_and_v{
+  background: #DDA0DD;
+  color: #FFF0F5;
+}
+body.pic{
+  background: #DDA0DD;
+  color: #FFF0F5;
+}
+h1.main{
+  font-family:Times New Roman;
+  font-size: 250%;
+}
+p.main{
+  font-family:Times New Roman;
+  font-size: 150%;
+}
+h2.main{
+  color:#800000;
+}
+ol.main{
+  font-size: 150%;
+}

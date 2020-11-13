@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UFT-8">
+<title>Тег canvas</title>
+<body>
+  <h1>Вариант 3: Треугольник в треугольнике</h1>
+  <p>Бусленко Анастасия Сергеевна</p>
+  <canvas id="tringal" width="500" height="500"></canvas>
+  <script>
+  window.onload = function() {
+  var drawingCanvas = document.getElementById('tringal');
+  if(drawingCanvas && drawingCanvas.getContext) {
+   var context = drawingCanvas.getContext('2d');
+   context.strokeStyle = "#000000";
+   context.beginPath();
+   context.fillStyle = "#8A2BE2";
+   context.moveTo(50,50);
+   context.lineTo(400,270);
+   context.lineTo(270,350);
+   context.fill();
+
+   context.beginPath();
+   context.fillStyle = "#7B68EE";
+   context.moveTo(80,80);
+   context.lineTo(240,300);
+   context.lineTo(300,220);
+   context.fill();
+  }
+  }
+  </script>
+</body>
+</html>

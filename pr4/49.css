@@ -1,0 +1,79 @@
+.button1 {
+width: 100px;
+height: 100px;
+transform-style: preserve-3d;
+transition: transform 1s linear;
+float: left;
+}
+
+.button11 {
+border: 1px solid black;
+transform: translateZ(25px);
+background: linear-gradient(to top left,rgb(245, 130, 69),rgb(195, 109, 214),rgb(105, 55, 208));
+box-shadow: inset 3px,4px,5px #000;
+position: absolute;
+width: 100px;
+height: 50px;
+}
+
+.button12 {
+border: 1px solid black;
+transform: translateY(25px) rotateX(-90deg);
+background: linear-gradient(to top left, dodgerblue, deeppink);
+box-shadow: inset 3px,4px,5px #000;
+position: absolute;
+width: 100px;
+height: 50px;
+}
+
+.button1:hover {
+transform: rotateX(90deg);
+}
+
+/*.button1{
+  background: linear-gradient(to top left,rgb(245, 130, 69),rgb(195, 109, 214),rgb(105, 55, 208));
+  height: 100px;
+  width: 110px;
+  border: 2px inset black;
+  position:absolute;
+  left: 20px;
+  top: 50%;
+}
+.button1:hover{
+  transform: rotate(90deg);
+}*/
+
+.button2{
+  background: linear-gradient(to bottom right,rgb(122, 58, 114),rgb(30, 78, 122), rgb(71, 149, 127));
+  height: 100px;
+  width: 110px;
+  border: 2px inset black;
+  position:absolute;
+  box-shadow: inset 3px,4px,5px #000;
+  left: 220px;
+  top: 50%;
+}
+.button2:hover{
+  width: 300px;
+  transition-property: width;
+  transition-duration: 2s;
+  background: linear-gradient(to bottom right,rgb(237, 42, 213),rgb(36, 146, 247), rgb(77, 235, 190))
+}
+
+.button3{
+ background: linear-gradient(to top right,rgb(235, 241, 48),rgb(232, 65, 104),rgb(240, 172, 19));
+ height: 100px;
+ width: 110px;
+ border: 2px inset black;
+ position:absolute;
+ box-shadow: inset 3px,4px,5px #000;
+ left:600px;
+ top:50%;
+}
+
+.button3:hover{
+  height: 200px;
+  transition-duration: 3s;
+  background: linear-gradient(to top right,rgb(233, 237, 97),rgb(235, 121, 147),rgb(247, 196, 82));
+transition-property: height;
+}

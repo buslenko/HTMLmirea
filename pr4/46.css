@@ -1,0 +1,36 @@
+#graph .item{
+  color: #000;
+  margin-left: 5px;
+}
+
+#graph.vertical .item{
+  width: 50px;
+  padding: 2px;
+  text-align:center;
+  float: left;
+}
+.a{
+  height:60px;
+  margin-top:210px;
+  background:#fe3a06;
+}
+.b{
+height:100px;
+margin-top:170px;
+background:#ffa100;
+}
+.c{
+  height:140px;
+  margin-top:130px;
+  background:#fffd05;
+}
+.d{
+  height:180px;
+  margin-top:90px;
+  background:#88f90a;
+}
+.e{
+  height:220px;
+  margin-top:50px;
+  background:#04c81e;
+}
