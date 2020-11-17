@@ -26,17 +26,24 @@ padding: 10px;
 .menu{
 float: left;
 padding: 10px;
-width: 300px;
+width: 20%;
 background: #5ee28d;
-height: 700px;
+height: 437px;
 }
 
-.content{
+/*.content{
 float: left;
 padding: 10px;
 margin-left: 0px;
 background: #5e86e2;
-width: 640px;
-height: 700px;
+width: 78%;
+height: 451px;
 text-align: left;
+}*/
+iframe{
+  width: 78%;
+  height: 451px;
+}
+.container{
+  padding: 10px;
 }

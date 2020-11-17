@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UFT-8">
+<title>Работа с for-in</title>
+<script>
+  var obj = {green: 'зелёный', red: 'красный', blue: 'голубой'};
+  for (key in obj) {
+  	alert(key);
+    alert(obj[key]);
+  }
+
+  var obj = {Коля:'1000', Вася:'500', Петя:'200'};
+  for(key in obj){
+    document.write((key) + '-зарплата ' + (obj[key]) + ' долларов' + '<br>')
+  }
+</script>
+</head>
+<body>
+</body>
+</html>
