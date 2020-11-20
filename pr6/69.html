@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UFT-8">
+<title>Работа с length, substr, substring, slice. Работа с indexO</title>
+<script>
+  var str = 'я учу javascript';
+  document.write(str.length + '<br>');
+
+  var str = 'я учу javascript';
+  document.write(str.substr(2,3) + '<br>');
+  document.write(str.substring(2,16) + '<br>');
+  document.write(str.slice(2,16) + '<br>');
+
+var str = 'я учу javascript';
+var n = 9;
+if(str.length>n){
+  var result = str.slice(0,9);
+  document.write(result + '...');
+}
+else{
+  var result = str;
+  document.write(result)
+}
+</script>
+</head>
+<body>
+</body>
+</html>
