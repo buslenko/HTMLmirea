@@ -31,19 +31,41 @@ background: #5ee28d;
 height: 437px;
 }
 
-/*.content{
-float: left;
-padding: 10px;
-margin-left: 0px;
-background: #5e86e2;
-width: 78%;
-height: 451px;
-text-align: left;
-}*/
 iframe{
   width: 78%;
   height: 451px;
 }
 .container{
   padding: 10px;
+}
+/*history.html*/
+.pic1{
+  float: left;
+  height: 300px;
+  width: 350px;
+}
+.pic2{
+  float: right;
+  height: 350px;
+  width: 300px;
+  margin: 10px
+}
+/*game.html*/
+.pic3{
+  float: left;
+  height: 300px;
+  width: 350px;
+  margin: 10px;
+}
+h2{
+  font-size: 65px;
+}
+h3{
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+}
+li.game{
+  font-size: 20px;
 }
