@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Метод getElementById и работа с атрибутами</title>
+	<style>
+		input {
+			width: 300px;
+		}
+	</style>
+	<script>
+		function go(){
+			elem = document.getElementById('test');
+			elem.value = 'Текст был изменен';
+		}
+	</script>
+</head>
+<body>
+	<input type="text" value="текст" id="test">
+	<button onclick="go()">Тыкай</button>
+</body>
+</html>

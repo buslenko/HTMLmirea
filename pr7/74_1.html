@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Работа с CSS</title>
+	<style>
+		input {
+			width: 200px;
+		}
+	</style>
+	<script>
+		function go(){
+			elem = document.getElementById('test');
+			elem.value = 'Текст был изменен';
+			elem.style.width = '200px';
+			elem.style.height = '50px';
+			elem.style.color = 'red';
+			elem.style.borderRadius = '10px';
+		}
+	</script>
+</head>
+<body style="height: 150px;">
+	<input type="text" value="Текст" id="test"> <br><br>
+	<button onclick="go()">Тыкай</button>
+</body>
+</html>
