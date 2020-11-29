@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Работа с таймерами</title>
+	<style>
+		#wrapper, #test {
+			text-align: center;
+		}
+	</style>
+	<script>
+        function go(){
+			window.timerId = window.setInterval(timer, 1000);
+		}
+		function timer(){
+			if(window.number == undefined || window.number == 3) {
+				window.number = 1;
+			} else window.number = window.number + 1;
+			var img = document.getElementById('img');
+			img.src = 'chief/'+window.number+'.jpg'
+		}
+	</script>
+</head>
+<body onload="go()">
+	<div id="wrapper">
+		<img src="/Users/anast/OneDrive/Рабочий стол/html/pr1/space.jpg" id="img">
+	</div>
+</body>
+</html>
