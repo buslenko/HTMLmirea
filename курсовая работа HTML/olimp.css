@@ -2,23 +2,35 @@ body, html{
 font: 12px tahoma;
 margin: 0px;
 padding: 0px;
+background: rgb(22, 219, 151)
 }
 
 div{
 text-align: center;
 }
 
-.wrap{
-width: 990px;
-margin-left: auto;
-margin-right: auto;
-background: #ddd;
-padding: 10px;
+iframe{
+  width: 78%;
+  height: 401px;
+  allowtransparency;
+}
+
+h2{
+  font-size: 65px;
+}
+h3{
+  font-size: 30px;
+}
+p{
+  font-size: 20px;
+}
+li.game{
+  font-size: 20px;
 }
 
 .header{
 background: #e25e5e;
-height: 100px;
+height: 150px;
 margin-bottom: 0px;
 padding: 10px;
 }
@@ -27,14 +39,9 @@ padding: 10px;
 float: left;
 padding: 10px;
 width: 20%;
-background: #5ee28d;
-height: 437px;
+height: 387px;
 }
 
-iframe{
-  width: 78%;
-  height: 451px;
-}
 .container{
   padding: 10px;
 }
@@ -57,15 +64,23 @@ iframe{
   width: 350px;
   margin: 10px;
 }
-h2{
-  font-size: 65px;
+/*winter.html*/
+.win1{
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  text-align: left;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid rgb(0, 0, 0);
 }
-h3{
-  font-size: 30px;
-}
-p{
-  font-size: 20px;
-}
-li.game{
-  font-size: 20px;
+/*summer.html*/
+.sum1{
+  display: inline-block;
+  vertical-align: top;
+  width: 100px;
+  text-align: left;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid rgb(0, 0, 0);
 }
