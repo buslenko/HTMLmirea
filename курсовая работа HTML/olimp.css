@@ -1,61 +1,100 @@
 body, html{
-font: 12px tahoma;
 margin: 0px;
 padding: 0px;
-background: rgb(22, 219, 151)
+width: 100%;
+height: 100%;
+overflow-x: hidden;
+overflow-y: auto;
+background-image: url(fon1.png);
+background-color: rgb(217, 193, 157);
 }
 
 div{
 text-align: center;
 }
 
-iframe{
-  width: 78%;
-  height: 401px;
-  allowtransparency;
+h1{
+  font-size: 48px;
+  padding-left: 240px;
+  text-shadow: 4px 4px #656273, 6px 6px #8a889d;
 }
-
 h2{
-  font-size: 65px;
-}
-h3{
   font-size: 30px;
 }
-p{
-  font-size: 20px;
+h3{
+  font-size: 24px;
 }
-li.game{
+
+p{
+  font-size: 14px;
+  font-family: Arial;
+  text-align:left;
+}
+a{
+  text-decoration: none;
+  color:#484652;
   font-size: 20px;
+  box-shadow: 0.4em 0.4em 5px;
+}
+
+a.color1:hover{
+  color:rgb(15, 0, 255)
+}
+a.color2:hover{
+  color:rgb(255, 247, 0)
+}
+a.color3:hover{
+  color:rgb(0, 0, 0)
+}
+a.color4:hover{
+  color:rgb(0, 255, 5)
+}
+a.color5:hover{
+  color:rgb(255, 0, 0)
+}
+li.menu{
+  list-style-type: none;
+  text-align:left;
+  line-height: 1;
 }
 
 .header{
-background: #e25e5e;
+background: url(fon.png) no-repeat 80px 60px;
 height: 150px;
 margin-bottom: 0px;
 padding: 10px;
+color: #000;
+line-height: 0.8
 }
 
 .menu{
 float: left;
-padding: 10px;
-width: 20%;
-height: 387px;
+padding: 5px;
+width: 300px;
+
+
 }
 
-.container{
-  padding: 10px;
+.content{
+  float: left;
+  width: 793px;
+  padding-left: 50px;
+  padding-right: 100px;
+  border: 1px solid #000;
 }
+
 /*history.html*/
 .pic1{
   float: left;
   height: 300px;
   width: 350px;
+  margin: 10px;
 }
 .pic2{
   float: right;
   height: 350px;
   width: 300px;
-  margin: 10px
+  margin: 10px;
 }
 /*game.html*/
 .pic3{
@@ -64,23 +103,98 @@ height: 387px;
   width: 350px;
   margin: 10px;
 }
+li.game{
+  text-align: left;
+}
+li.game:hover{
+  color:rgb(231, 23, 23);
+}
 /*winter.html*/
 .win1{
   display: inline-block;
   vertical-align: top;
-  width: 100px;
+  width: 210px;
   text-align: left;
   margin: 10px;
   padding: 5px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0.4em 0.4em 5px;
 }
+.win1:hover{
+  border:2px solid rgb(0, 23, 255);
+  box-shadow: 0.4em 0.4em 5px rgb(0, 23, 255);
+  transition-duration: 1s;
+}
+
+img.winter{
+  float: left;
+  padding: 10px;
+}
+.win{
+padding: 10px;
+font: Arial;
+font-size: 10px;
+color:#000;
+}
+.win:hover{
+  color:rgb(0, 23, 255);
+}
+
 /*summer.html*/
 .sum1{
   display: inline-block;
   vertical-align: top;
-  width: 100px;
+  width: 210px;
   text-align: left;
   margin: 10px;
   padding: 5px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0.4em 0.4em 5px;
+}
+.sum1:hover{
+  border:2px solid rgb(22, 120, 11);
+  box-shadow: 0.4em 0.4em 5px rgb(22, 120, 11);
+  transition-duration: 1s;
+}
+img.summer{
+  float: left;
+  padding: 10px;
+
+}
+.sum{
+margin: 5px 0 0 95px;
+font: Arial;
+font-size: 10px;
+height: 60px
+color:#000;
+}
+.sum:hover{
+  color:rgb(22, 120, 11);
+}
+/*game1.html*/
+.pic4{
+  float: left;
+  height: 300px;
+  width: 350px;
+  margin: 10px;
+  background: #ebe5e5;
+}
+
+.par1{
+  float: left;
+  margin-right: 100px;
+}
+
+.par2{
+  float: left;
+  margin-left: 100px;
+}
+li{
+  text-align: left;
+}
+li.game1:hover{
+  color:rgb(20, 145, 8)
+}
+li.game2:hover{
+  color:rgb(14, 38, 230)
 }

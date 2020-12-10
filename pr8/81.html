@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Использование setInterval</title>
+<style>
+ #pic
+{
+position: relative;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+<img id="pic" src="https://img-fotki.yandex.ru/get/6800/141128800.293/0_d8223_f9eb344_orig.jpg" width="150" height="150">
+<script>
+tachka.onclick = function() {
+let start = Date.now();
+let timer = setInterval(function() {
+let timePassed = Date.now() - start;
+tachka.style.left = timePassed / 5 + 'px';
+if (timePassed > 2000) clearInterval(timer);
+}, 20);
+}
+</script>
+</body>
+</html>
