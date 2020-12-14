@@ -3,9 +3,12 @@
 <head>
 <meta charset="UFT-8">
 <title>Олимпийские игры современности</title>
+<link rel="shortcut icon"
+      href="img/olimp.ico" type="image/x-icon">
 <link rel="stylesheet" href="olimp.css">
+<script src="olimp.js"></script>
 </head>
-<body>
+<body onload="digitalWatch()">
   <div class="header">
     <h1>Олимпийские игры</h1>
     <h1>Быстрее! Выше! Сильнее!</h1>
@@ -19,6 +22,9 @@
       <li class="menu"><a class="color4" href="summer.html" target="self">Летние олимпийские игры</a></li>
       <li class="menu"><a class="color5" href="game1.html" target="self">Паралимпийские игры</a></li>
     </ul>
+    <div class="clock">
+      <p id="digital_watch"></p>
+    </div>
     </div>
     <div class="content">
 <h2>Зимние Олимпийские игры</h2>
@@ -31,8 +37,8 @@
   те же годы, что и летние. С 1994 года зимние Олимпийские игры проводятся после летних
   со сдвигом в 2 года.
 </p>
-<br>
-<h3>Виды спорта, представленные на Зимниз Олимпийских играх</h3>
+
+<h3>Виды спорта, представленные на Зимних Олимпийских играх</h3>
 <div class="win1">
   <img src="http://olimp-history.ru/files/imagecache/sport/icons/Biathlon.png" alt="Биатлон" width="70" height="70" class="winter">
 <div class="win">
@@ -138,5 +144,8 @@
 </div>
 </div>
 </div>
+<a id="upbutton" href="#" onclick="smoothJumpUp(); return false;">
+  <img src="http://www.anhaenger-westfalen.de/images/link_sroll_top.jpg?crc=4135298024" alt="Top" border="none" title="Наверх" width="60" height="60">
+</a>
 </body>
 </html>
